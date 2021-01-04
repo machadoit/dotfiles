@@ -1,7 +1,7 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
 <!--Created by Ukelele version 339 on 2021-01-03 at 23:09 (WET)-->
-<!--Last edited by Ukelele version 339 on 2021-01-04 at 00:07 (WET)-->
+<!--Last edited by Ukelele version 339 on 2021-01-04 at 00:16 (WET)-->
 <keyboard group="126" id="-7330" name="PT-Dev+" maxout="1">
     <layouts>
         <layout first="0" last="17" mapSet="ANSI" modifiers="Modifiers"/>
@@ -616,10 +616,10 @@
             <key code="27" output="&#x0027;"/>
             <key code="28" output="8"/>
             <key code="29" output="0"/>
-            <key code="30" output=")"/>
+            <key code="30" output="´"/>
             <key code="31" output="o"/>
             <key code="32" output="u"/>
-            <key code="33" output="("/>
+            <key code="33" output="º"/>
             <key code="34" output="i"/>
             <key code="35" output="p"/>
             <key code="36" output="&#x000D;"/>
@@ -627,7 +627,7 @@
             <key code="38" output="j"/>
             <key code="39" output="`"/>
             <key code="40" output="k"/>
-            <key code="41" output=";"/>
+            <key code="41" output="ç"/>
             <key code="42" output="~"/>
             <key code="43" output=","/>
             <key code="44" output="-"/>
@@ -726,10 +726,10 @@
             <key code="27" output="?"/>
             <key code="28" output="("/>
             <key code="29" output="="/>
-            <key code="30" output="}"/>
+            <key code="30" output="`"/>
             <key code="31" output="O"/>
             <key code="32" output="U"/>
-            <key code="33" output="{"/>
+            <key code="33" output="ª"/>
             <key code="34" output="I"/>
             <key code="35" output="P"/>
             <key code="36" output="&#x000D;"/>
@@ -737,7 +737,7 @@
             <key code="38" output="J"/>
             <key code="39" output="@"/>
             <key code="40" output="K"/>
-            <key code="41" output=":"/>
+            <key code="41" output="Ç"/>
             <key code="42" output="^"/>
             <key code="43" output=";"/>
             <key code="44" output="_"/>
