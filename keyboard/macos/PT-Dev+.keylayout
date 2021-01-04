@@ -1,8 +1,8 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
 <!--Created by Ukelele version 339 on 2021-01-03 at 23:09 (WET)-->
-<!--Last edited by Ukelele version 339 on 2021-01-03 at 23:48 (WET)-->
-<keyboard group="126" id="-30126" name="PT-Dev+" maxout="1">
+<!--Last edited by Ukelele version 339 on 2021-01-03 at 23:59 (WET)-->
+<keyboard group="126" id="-7330" name="PT-Dev+" maxout="1">
     <layouts>
         <layout first="0" last="17" mapSet="ANSI" modifiers="Modifiers"/>
         <layout first="18" last="18" mapSet="JIS" modifiers="Modifiers"/>
@@ -30,6 +30,21 @@
         </keyMapSelect>
         <keyMapSelect mapIndex="4">
             <modifier keys="anyShift anyOption"/>
+        </keyMapSelect>
+        <keyMapSelect mapIndex="5">
+            <modifier keys="caps"/>
+        </keyMapSelect>
+        <keyMapSelect mapIndex="6">
+            <modifier keys="anyShift caps"/>
+        </keyMapSelect>
+        <keyMapSelect mapIndex="7">
+            <modifier keys="caps anyOption"/>
+        </keyMapSelect>
+        <keyMapSelect mapIndex="8">
+            <modifier keys="caps anyControl"/>
+        </keyMapSelect>
+        <keyMapSelect mapIndex="9">
+            <modifier keys="anyShift caps anyOption"/>
         </keyMapSelect>
     </modifierMap>
     <keyMapSet id="ANSI">
@@ -570,6 +585,545 @@
             <key code="125" output="&#x001F;"/>
             <key code="126" output="&#x001E;"/>
         </keyMap>
+
+
+        <keyMap index="5">
+            <kkey code="0" output="a"/>
+            <kkey code="1" output="s"/>
+            <kkey code="2" output="d"/>
+            <kkey code="3" output="f"/>
+            <kkey code="4" output="h"/>
+            <kkey code="5" output="g"/>
+            <kkey code="6" output="z"/>
+            <kkey code="7" output="x"/>
+            <kkey code="8" output="c"/>
+            <kkey code="9" output="v"/>
+            <kkey code="10" output="\"/>
+            <kkey code="11" output="b"/>
+            <kkey code="12" output="q"/>
+            <kkey code="13" output="w"/>
+            <kkey code="14" output="e"/>
+            <kkey code="15" output="r"/>
+            <kkey code="16" output="y"/>
+            <kkey code="17" output="t"/>
+            <kkey code="18" output="1"/>
+            <kkey code="19" output="2"/>
+            <kkey code="20" output="3"/>
+            <kkey code="21" output="4"/>
+            <kkey code="22" output="6"/>
+            <kkey code="23" output="5"/>
+            <kkey code="24" output="+"/>
+            <kkey code="25" output="9"/>
+            <kkey code="26" output="7"/>
+            <kkey code="27" output="&#x0027;"/>
+            <kkey code="28" output="8"/>
+            <kkey code="29" output="0"/>
+            <kkey code="30" output=")"/>
+            <kkey code="31" output="o"/>
+            <kkey code="32" output="u"/>
+            <kkey code="33" output="("/>
+            <kkey code="34" output="i"/>
+            <kkey code="35" output="p"/>
+            <kkey code="36" output="&#x000D;"/>
+            <kkey code="37" output="l"/>
+            <kkey code="38" output="j"/>
+            <kkey code="39" output="`"/>
+            <kkey code="40" output="k"/>
+            <kkey code="41" output=";"/>
+            <kkey code="42" output="~"/>
+            <kkey code="43" output=","/>
+            <kkey code="44" output="-"/>
+            <kkey code="45" output="n"/>
+            <kkey code="46" output="m"/>
+            <kkey code="47" output="."/>
+            <kkey code="48" output="&#x0009;"/>
+            <kkey code="49" output=" "/>
+            <kkey code="50" output="&#x003C;"/>
+            <kkey code="51" output="&#x0008;"/>
+            <kkey code="53" output="&#x001B;"/>
+            <kkey code="55" output=""/>
+            <kkey code="57" output=""/>
+            <kkey code="58" output=""/>
+            <kkey code="59" output=""/>
+            <kkey code="64" output="&#x0010;"/>
+            <kkey code="65" output="."/>
+            <kkey code="66" output="&#x001D;"/>
+            <kkey code="67" output="*"/>
+            <kkey code="69" output="+"/>
+            <kkey code="70" output="&#x001C;"/>
+            <kkey code="71" output="&#x001B;"/>
+            <kkey code="72" output="&#x001F;"/>
+            <kkey code="75" output="/"/>
+            <kkey code="76" output="&#x0003;"/>
+            <kkey code="77" output="&#x001E;"/>
+            <kkey code="78" output="-"/>
+            <kkey code="79" output="&#x0010;"/>
+            <kkey code="80" output="&#x0010;"/>
+            <kkey code="81" output="="/>
+            <kkey code="82" output="0"/>
+            <kkey code="83" output="1"/>
+            <kkey code="84" output="2"/>
+            <kkey code="85" output="3"/>
+            <kkey code="86" output="4"/>
+            <kkey code="87" output="5"/>
+            <kkey code="88" output="6"/>
+            <kkey code="89" output="7"/>
+            <kkey code="91" output="8"/>
+            <kkey code="92" output="9"/>
+            <kkey code="96" output="&#x0010;"/>
+            <kkey code="97" output="&#x0010;"/>
+            <kkey code="98" output="&#x0010;"/>
+            <kkey code="99" output="&#x0010;"/>
+            <kkey code="100" output="&#x0010;"/>
+            <kkey code="101" output="&#x0010;"/>
+            <kkey code="103" output="&#x0010;"/>
+            <kkey code="105" output="&#x0010;"/>
+            <kkey code="106" output="&#x0010;"/>
+            <kkey code="107" output="&#x0010;"/>
+            <kkey code="109" output="&#x0010;"/>
+            <kkey code="111" output="&#x0010;"/>
+            <kkey code="113" output="&#x0010;"/>
+            <kkey code="114" output="&#x0005;"/>
+            <kkey code="115" output="&#x0001;"/>
+            <kkey code="116" output="&#x000B;"/>
+            <kkey code="117" output="&#x007F;"/>
+            <kkey code="118" output="&#x0010;"/>
+            <kkey code="119" output="&#x0004;"/>
+            <kkey code="120" output="&#x0010;"/>
+            <kkey code="121" output="&#x000C;"/>
+            <kkey code="122" output="&#x0010;"/>
+            <kkey code="123" output="&#x001C;"/>
+            <kkey code="124" output="&#x001D;"/>
+            <kkey code="125" output="&#x001F;"/>
+            <kkey code="126" output="&#x001E;"/>
+        </keyMap>
+        <keyMap index="6">
+            <kkey code="0" output="A"/>
+            <kkey code="1" output="S"/>
+            <kkey code="2" output="D"/>
+            <kkey code="3" output="F"/>
+            <kkey code="4" output="H"/>
+            <kkey code="5" output="G"/>
+            <kkey code="6" output="Z"/>
+            <kkey code="7" output="X"/>
+            <kkey code="8" output="C"/>
+            <kkey code="9" output="V"/>
+            <kkey code="10" output="|"/>
+            <kkey code="11" output="B"/>
+            <kkey code="12" output="Q"/>
+            <kkey code="13" output="W"/>
+            <kkey code="14" output="E"/>
+            <kkey code="15" output="R"/>
+            <kkey code="16" output="Y"/>
+            <kkey code="17" output="T"/>
+            <kkey code="18" output="!"/>
+            <kkey code="19" output="&#x0022;"/>
+            <kkey code="20" output="#"/>
+            <kkey code="21" output="$"/>
+            <kkey code="22" output="&#x0026;"/>
+            <kkey code="23" output="%"/>
+            <kkey code="24" output="*"/>
+            <kkey code="25" output=")"/>
+            <kkey code="26" output="/"/>
+            <kkey code="27" output="?"/>
+            <kkey code="28" output="("/>
+            <kkey code="29" output="="/>
+            <kkey code="30" output="}"/>
+            <kkey code="31" output="O"/>
+            <kkey code="32" output="U"/>
+            <kkey code="33" output="{"/>
+            <kkey code="34" output="I"/>
+            <kkey code="35" output="P"/>
+            <kkey code="36" output="&#x000D;"/>
+            <kkey code="37" output="L"/>
+            <kkey code="38" output="J"/>
+            <kkey code="39" output="@"/>
+            <kkey code="40" output="K"/>
+            <kkey code="41" output=":"/>
+            <kkey code="42" output="^"/>
+            <kkey code="43" output=";"/>
+            <kkey code="44" output="_"/>
+            <kkey code="45" output="N"/>
+            <kkey code="46" output="M"/>
+            <kkey code="47" output=":"/>
+            <kkey code="48" output="&#x0009;"/>
+            <kkey code="49" output=" "/>
+            <kkey code="50" output="&#x003E;"/>
+            <kkey code="51" output="&#x0008;"/>
+            <kkey code="53" output="&#x001B;"/>
+            <kkey code="64" output="&#x0010;"/>
+            <kkey code="65" output="."/>
+            <kkey code="66" output="&#x001D;"/>
+            <kkey code="67" output="*"/>
+            <kkey code="69" output="+"/>
+            <kkey code="70" output="&#x001C;"/>
+            <kkey code="71" output="&#x001B;"/>
+            <kkey code="72" output="&#x001F;"/>
+            <kkey code="75" output="/"/>
+            <kkey code="76" output="&#x0003;"/>
+            <kkey code="77" output="&#x001E;"/>
+            <kkey code="78" output="-"/>
+            <kkey code="79" output="&#x0010;"/>
+            <kkey code="80" output="&#x0010;"/>
+            <kkey code="81" output="="/>
+            <kkey code="82" output="0"/>
+            <kkey code="83" output="1"/>
+            <kkey code="84" output="2"/>
+            <kkey code="85" output="3"/>
+            <kkey code="86" output="4"/>
+            <kkey code="87" output="5"/>
+            <kkey code="88" output="6"/>
+            <kkey code="89" output="7"/>
+            <kkey code="91" output="8"/>
+            <kkey code="92" output="9"/>
+            <kkey code="96" output="&#x0010;"/>
+            <kkey code="97" output="&#x0010;"/>
+            <kkey code="98" output="&#x0010;"/>
+            <kkey code="99" output="&#x0010;"/>
+            <kkey code="100" output="&#x0010;"/>
+            <kkey code="101" output="&#x0010;"/>
+            <kkey code="103" output="&#x0010;"/>
+            <kkey code="105" output="&#x0010;"/>
+            <kkey code="106" output="&#x0010;"/>
+            <kkey code="107" output="&#x0010;"/>
+            <kkey code="109" output="&#x0010;"/>
+            <kkey code="111" output="&#x0010;"/>
+            <kkey code="113" output="&#x0010;"/>
+            <kkey code="114" output="&#x0005;"/>
+            <kkey code="115" output="&#x0001;"/>
+            <kkey code="116" output="&#x000B;"/>
+            <kkey code="117" output="&#x007F;"/>
+            <kkey code="118" output="&#x0010;"/>
+            <kkey code="119" output="&#x0004;"/>
+            <kkey code="120" output="&#x0010;"/>
+            <kkey code="121" output="&#x000C;"/>
+            <kkey code="122" output="&#x0010;"/>
+            <kkey code="123" output="&#x001C;"/>
+            <kkey code="124" output="&#x001D;"/>
+            <kkey code="125" output="&#x001F;"/>
+            <kkey code="126" output="&#x001E;"/>
+        </keyMap>
+        <keyMap index="7">
+            <kkey code="0" output="å"/>
+            <kkey code="1" output="ß"/>
+            <kkey code="2" output="∂"/>
+            <kkey code="3" output="ƒ"/>
+            <kkey code="4" output="ˇ"/>
+            <kkey code="5" output="˙"/>
+            <kkey code="6" output="Ω"/>
+            <kkey code="7" output="«"/>
+            <kkey code="8" output="©"/>
+            <kkey code="9" output="√"/>
+            <kkey code="10" output="§"/>
+            <kkey code="11" output="∫"/>
+            <kkey code="12" output="œ"/>
+            <kkey code="13" output="∑"/>
+            <kkey code="14" output="æ"/>
+            <kkey code="15" output="®"/>
+            <kkey code="16" output="¥"/>
+            <kkey code="17" output="™"/>
+            <kkey code="18" output=""/>
+            <kkey code="19" output="@"/>
+            <kkey code="20" output="€"/>
+            <kkey code="21" output="£"/>
+            <kkey code="22" output="¶"/>
+            <kkey code="23" output="‰"/>
+            <kkey code="24" output="±"/>
+            <kkey code="25" output="]"/>
+            <kkey code="26" output="÷"/>
+            <kkey code="27" output="§"/>
+            <kkey code="28" output="["/>
+            <kkey code="29" output="≠"/>
+            <kkey code="30" output="]"/>
+            <kkey code="31" output="ø"/>
+            <kkey code="32" output="†"/>
+            <kkey code="33" output="["/>
+            <kkey code="34" output="ı"/>
+            <kkey code="35" output="π"/>
+            <kkey code="36" output="&#x000D;"/>
+            <kkey code="37" output="‘"/>
+            <kkey code="38" output="¯"/>
+            <kkey code="39" output="˜"/>
+            <kkey code="40" output="„"/>
+            <kkey code="41" output="¸"/>
+            <kkey code="42" output="‹"/>
+            <kkey code="43" output="“"/>
+            <kkey code="44" output="—"/>
+            <kkey code="45" output="¬"/>
+            <kkey code="46" output="µ"/>
+            <kkey code="47" output="…"/>
+            <kkey code="48" output="&#x0009;"/>
+            <kkey code="49" output=" "/>
+            <kkey code="50" output="≤"/>
+            <kkey code="51" output="&#x0008;"/>
+            <kkey code="53" output="&#x001B;"/>
+            <kkey code="64" output="&#x0010;"/>
+            <kkey code="65" output="."/>
+            <kkey code="66" output="&#x001D;"/>
+            <kkey code="67" output="*"/>
+            <kkey code="69" output="+"/>
+            <kkey code="70" output="&#x001C;"/>
+            <kkey code="71" output="&#x001B;"/>
+            <kkey code="72" output="&#x001F;"/>
+            <kkey code="75" output="/"/>
+            <kkey code="76" output="&#x0003;"/>
+            <kkey code="77" output="&#x001E;"/>
+            <kkey code="78" output="-"/>
+            <kkey code="79" output="&#x0010;"/>
+            <kkey code="80" output="&#x0010;"/>
+            <kkey code="81" output="="/>
+            <kkey code="82" output="0"/>
+            <kkey code="83" output="1"/>
+            <kkey code="84" output="2"/>
+            <kkey code="85" output="3"/>
+            <kkey code="86" output="4"/>
+            <kkey code="87" output="5"/>
+            <kkey code="88" output="6"/>
+            <kkey code="89" output="7"/>
+            <kkey code="91" output="8"/>
+            <kkey code="92" output="9"/>
+            <kkey code="96" output="&#x0010;"/>
+            <kkey code="97" output="&#x0010;"/>
+            <kkey code="98" output="&#x0010;"/>
+            <kkey code="99" output="&#x0010;"/>
+            <kkey code="100" output="&#x0010;"/>
+            <kkey code="101" output="&#x0010;"/>
+            <kkey code="103" output="&#x0010;"/>
+            <kkey code="105" output="&#x0010;"/>
+            <kkey code="106" output="&#x0010;"/>
+            <kkey code="107" output="&#x0010;"/>
+            <kkey code="109" output="&#x0010;"/>
+            <kkey code="111" output="&#x0010;"/>
+            <kkey code="113" output="&#x0010;"/>
+            <kkey code="114" output="&#x0005;"/>
+            <kkey code="115" output="&#x0001;"/>
+            <kkey code="116" output="&#x000B;"/>
+            <kkey code="117" output="&#x007F;"/>
+            <kkey code="118" output="&#x0010;"/>
+            <kkey code="119" output="&#x0004;"/>
+            <kkey code="120" output="&#x0010;"/>
+            <kkey code="121" output="&#x000C;"/>
+            <kkey code="122" output="&#x0010;"/>
+            <kkey code="123" output="&#x001C;"/>
+            <kkey code="124" output="&#x001D;"/>
+            <kkey code="125" output="&#x001F;"/>
+            <kkey code="126" output="&#x001E;"/>
+        </keyMap>
+        <keyMap index="8">
+            <kkey code="0" output="&#x0001;"/>
+            <kkey code="1" output="&#x0013;"/>
+            <kkey code="2" output="&#x0004;"/>
+            <kkey code="3" output="&#x0006;"/>
+            <kkey code="4" output="&#x0008;"/>
+            <kkey code="5" output="&#x0007;"/>
+            <kkey code="6" output="&#x001A;"/>
+            <kkey code="7" output="&#x0018;"/>
+            <kkey code="8" output="&#x0003;"/>
+            <kkey code="9" output="&#x0016;"/>
+            <kkey code="10" output="0"/>
+            <kkey code="11" output="&#x0002;"/>
+            <kkey code="12" output="&#x0011;"/>
+            <kkey code="13" output="&#x0017;"/>
+            <kkey code="14" output="&#x0005;"/>
+            <kkey code="15" output="&#x0012;"/>
+            <kkey code="16" output="&#x0019;"/>
+            <kkey code="17" output="&#x0014;"/>
+            <kkey code="18" output="1"/>
+            <kkey code="19" output="2"/>
+            <kkey code="20" output="3"/>
+            <kkey code="21" output="4"/>
+            <kkey code="22" output="6"/>
+            <kkey code="23" output="5"/>
+            <kkey code="24" output="="/>
+            <kkey code="25" output="9"/>
+            <kkey code="26" output="7"/>
+            <kkey code="27" output="&#x001F;"/>
+            <kkey code="28" output="8"/>
+            <kkey code="29" output="0"/>
+            <kkey code="30" output="&#x001D;"/>
+            <kkey code="31" output="&#x000F;"/>
+            <kkey code="32" output="&#x0015;"/>
+            <kkey code="33" output="&#x001B;"/>
+            <kkey code="34" output="&#x0009;"/>
+            <kkey code="35" output="&#x0010;"/>
+            <kkey code="36" output="&#x000D;"/>
+            <kkey code="37" output="&#x000C;"/>
+            <kkey code="38" output="&#x000A;"/>
+            <kkey code="39" output="&#x0022;"/>
+            <kkey code="40" output="&#x000B;"/>
+            <kkey code="41" output=":"/>
+            <kkey code="42" output="&#x001C;"/>
+            <kkey code="43" output=","/>
+            <kkey code="44" output="/"/>
+            <kkey code="45" output="&#x000E;"/>
+            <kkey code="46" output="&#x000D;"/>
+            <kkey code="47" output="."/>
+            <kkey code="48" output="&#x0009;"/>
+            <kkey code="49" output=" "/>
+            <kkey code="50" output="`"/>
+            <kkey code="51" output="&#x0008;"/>
+            <kkey code="52" output="&#x0003;"/>
+            <kkey code="53" output="&#x001B;"/>
+            <kkey code="65" output="."/>
+            <kkey code="66" output="&#x001D;"/>
+            <kkey code="67" output="*"/>
+            <kkey code="69" output="+"/>
+            <kkey code="70" output="&#x001C;"/>
+            <kkey code="71" output="&#x001B;"/>
+            <kkey code="72" output="&#x001F;"/>
+            <kkey code="75" output="/"/>
+            <kkey code="76" output="&#x0003;"/>
+            <kkey code="77" output="&#x001E;"/>
+            <kkey code="78" output="-"/>
+            <kkey code="81" output="="/>
+            <kkey code="82" output="0"/>
+            <kkey code="83" output="1"/>
+            <kkey code="84" output="2"/>
+            <kkey code="85" output="3"/>
+            <kkey code="86" output="4"/>
+            <kkey code="87" output="5"/>
+            <kkey code="88" output="6"/>
+            <kkey code="89" output="7"/>
+            <kkey code="91" output="8"/>
+            <kkey code="92" output="9"/>
+            <kkey code="96" output="&#x0010;"/>
+            <kkey code="97" output="&#x0010;"/>
+            <kkey code="98" output="&#x0010;"/>
+            <kkey code="99" output="&#x0010;"/>
+            <kkey code="100" output="&#x0010;"/>
+            <kkey code="101" output="&#x0010;"/>
+            <kkey code="102" output="&#x0010;"/>
+            <kkey code="103" output="&#x0010;"/>
+            <kkey code="104" output="&#x0010;"/>
+            <kkey code="105" output="&#x0010;"/>
+            <kkey code="106" output="&#x0010;"/>
+            <kkey code="107" output="&#x0010;"/>
+            <kkey code="108" output="&#x0010;"/>
+            <kkey code="109" output="&#x0010;"/>
+            <kkey code="110" output="&#x0010;"/>
+            <kkey code="111" output="&#x0010;"/>
+            <kkey code="112" output="&#x0010;"/>
+            <kkey code="113" output="&#x0010;"/>
+            <kkey code="114" output="&#x0005;"/>
+            <kkey code="115" output="&#x0001;"/>
+            <kkey code="116" output="&#x000B;"/>
+            <kkey code="117" output="&#x007F;"/>
+            <kkey code="118" output="&#x0010;"/>
+            <kkey code="119" output="&#x0004;"/>
+            <kkey code="120" output="&#x0010;"/>
+            <kkey code="121" output="&#x000C;"/>
+            <kkey code="122" output="&#x0010;"/>
+            <kkey code="123" output="&#x001C;"/>
+            <kkey code="124" output="&#x001D;"/>
+            <kkey code="125" output="&#x001F;"/>
+            <kkey code="126" output="&#x001E;"/>
+        </keyMap>
+        <keyMap index="9">
+            <kkey code="0" output="Å"/>
+            <kkey code="1" output="ß"/>
+            <kkey code="2" output="∆"/>
+            <kkey code="3" output="ƒ"/>
+            <kkey code="4" output="ˇ"/>
+            <kkey code="5" output="˙"/>
+            <kkey code="6" output="Ω"/>
+            <kkey code="7" output="»"/>
+            <kkey code="8" output="©"/>
+            <kkey code="9" output="√"/>
+            <kkey code="10" output="±"/>
+            <kkey code="11" output="∫"/>
+            <kkey code="12" output="Œ"/>
+            <kkey code="13" output="∑"/>
+            <kkey code="14" output="Æ"/>
+            <kkey code="15" output="®"/>
+            <kkey code="16" output="¥"/>
+            <kkey code="17" output="™"/>
+            <kkey code="18" output="¡"/>
+            <kkey code="19" output="ﬁ"/>
+            <kkey code="20" output="ﬂ"/>
+            <kkey code="21" output="¢"/>
+            <kkey code="22" output="•"/>
+            <kkey code="23" output="∞"/>
+            <kkey code="24" output="◊"/>
+            <kkey code="25" output="}"/>
+            <kkey code="26" output="⁄"/>
+            <kkey code="27" output="¿"/>
+            <kkey code="28" output="{"/>
+            <kkey code="29" output="≈"/>
+            <kkey code="30" output="˝"/>
+            <kkey code="31" output="Ø"/>
+            <kkey code="32" output="‡"/>
+            <kkey code="33" output="˚"/>
+            <kkey code="34" output="˚"/>
+            <kkey code="35" output="∏"/>
+            <kkey code="36" output="&#x000D;"/>
+            <kkey code="37" output="’"/>
+            <kkey code="38" output="¯"/>
+            <kkey code="39" output="ˆ"/>
+            <kkey code="40" output="‚"/>
+            <kkey code="41" output="˛"/>
+            <kkey code="42" output="›"/>
+            <kkey code="43" output="”"/>
+            <kkey code="44" output="–"/>
+            <kkey code="45" output="¬"/>
+            <kkey code="46" output="µ"/>
+            <kkey code="47" output="·"/>
+            <kkey code="48" output="&#x0009;"/>
+            <kkey code="49" output=" "/>
+            <kkey code="50" output="≥"/>
+            <kkey code="51" output="&#x0008;"/>
+            <kkey code="53" output="&#x001B;"/>
+            <kkey code="64" output="&#x0010;"/>
+            <kkey code="65" output="."/>
+            <kkey code="66" output="&#x001D;"/>
+            <kkey code="67" output="*"/>
+            <kkey code="69" output="+"/>
+            <kkey code="70" output="&#x001C;"/>
+            <kkey code="71" output="&#x001B;"/>
+            <kkey code="72" output="&#x001F;"/>
+            <kkey code="75" output="/"/>
+            <kkey code="76" output="&#x0003;"/>
+            <kkey code="77" output="&#x001E;"/>
+            <kkey code="78" output="-"/>
+            <kkey code="79" output="&#x0010;"/>
+            <kkey code="80" output="&#x0010;"/>
+            <kkey code="81" output="="/>
+            <kkey code="82" output="0"/>
+            <kkey code="83" output="1"/>
+            <kkey code="84" output="2"/>
+            <kkey code="85" output="3"/>
+            <kkey code="86" output="4"/>
+            <kkey code="87" output="5"/>
+            <kkey code="88" output="6"/>
+            <kkey code="89" output="7"/>
+            <kkey code="91" output="8"/>
+            <kkey code="92" output="9"/>
+            <kkey code="96" output="&#x0010;"/>
+            <kkey code="97" output="&#x0010;"/>
+            <kkey code="98" output="&#x0010;"/>
+            <kkey code="99" output="&#x0010;"/>
+            <kkey code="100" output="&#x0010;"/>
+            <kkey code="101" output="&#x0010;"/>
+            <kkey code="103" output="&#x0010;"/>
+            <kkey code="105" output="&#x0010;"/>
+            <kkey code="106" output="&#x0010;"/>
+            <kkey code="107" output="&#x0010;"/>
+            <kkey code="109" output="&#x0010;"/>
+            <kkey code="111" output="&#x0010;"/>
+            <kkey code="113" output="&#x0010;"/>
+            <kkey code="114" output="&#x0005;"/>
+            <kkey code="115" output="&#x0001;"/>
+            <kkey code="116" output="&#x000B;"/>
+            <kkey code="117" output="&#x007F;"/>
+            <kkey code="118" output="&#x0010;"/>
+            <kkey code="119" output="&#x0004;"/>
+            <kkey code="120" output="&#x0010;"/>
+            <kkey code="121" output="&#x000C;"/>
+            <kkey code="122" output="&#x0010;"/>
+            <kkey code="123" output="&#x001C;"/>
+            <kkey code="124" output="&#x001D;"/>
+            <kkey code="125" output="&#x001F;"/>
+            <kkey code="126" output="&#x001E;"/>
+        </keyMap>
     </keyMapSet>
     <keyMapSet id="JIS">
         <keyMap index="0" baseMapSet="ANSI" baseIndex="0">
@@ -585,6 +1139,21 @@
             <key code="512" output=""/>
         </keyMap>
         <keyMap index="4" baseMapSet="ANSI" baseIndex="4">
+            <key code="512" output=""/>
+        </keyMap>
+        <keyMap index="5" baseMapSet="ANSI" baseIndex="5">
+            <key code="512" output=""/>
+        </keyMap>
+        <keyMap index="6" baseMapSet="ANSI" baseIndex="6">
+            <key code="512" output=""/>
+        </keyMap>
+        <keyMap index="7" baseMapSet="ANSI" baseIndex="7">
+            <key code="512" output=""/>
+        </keyMap>
+        <keyMap index="8" baseMapSet="ANSI" baseIndex="8">
+            <key code="512" output=""/>
+        </keyMap>
+        <keyMap index="9" baseMapSet="ANSI" baseIndex="9">
             <key code="512" output=""/>
         </keyMap>
     </keyMapSet>
