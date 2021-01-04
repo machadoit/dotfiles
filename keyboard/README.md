@@ -9,6 +9,7 @@ PT (PC) layout to be able to write portguese with a couple changes:
 - `Alt` + `+` -> `[`
 - `Alt` + `´` -> `]`
 - `≪` / `≫` -> `+` / `*`
+- `+` / `*` -> `º` / `ª`
 - `º` / `ª` -> `'` / `` ` ``
 - `'` / `?` -> `-` / `_`
 - `-` / `_` -> `/` / `?`
@@ -29,4 +30,3 @@ Everything that PT+ does, removes all dead keys, and:
 - `Shift` + `´` -> `}`
 - `ç` -> - `;`
 - `Shift` + `ç` -> - `:`
-
