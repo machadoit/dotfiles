@@ -1,32 +1,30 @@
 # Keyboard layouts
 
-I base my 2 layouts on Portuguese PC layout for both Windows and MacOS.
+I base my 2 layouts on Portuguese Mac layout for both Windows and MacOS.
 
 ## PT+
 
-PT (PC) layout to be able to write portguese with a couple changes:
+PT (Mac) layout to be able to write portguese with a couple changes:
 
-- `Alt` + `+` -> `[`
-- `Alt` + `´` -> `]`
-- `≪` / `≫` -> `+` / `*`
-- `+` / `*` -> `º` / `ª`
-- `º` / `ª` -> `'` / `` ` ``
-- `'` / `?` -> `-` / `_`
-- `-` / `_` -> `/` / `?`
+- `'` `?` -> `-` `_`
+- `-` `_` -> `/` `?`
+- `§` `±` -> `'` `` ` ``
+
 - `Alt` + `-` -> `-`
 - `Alt` + `Shift` +  `-` -> `_`
-- `Alt` + `ç` -> `ç`
-- `Alt` + `Shift` + `ç` -> `Ç`
 
-The `` `´~^ `` characters behave as *dead keys* on this mode.
+The  `´` `` ` `` and `~` `^` keys keep the *dead keys* behaviour as expected.
 
 ## PT-Dev
 
 Everything that PT+ does, removes all dead keys, and:
 
-- `+` -> `(`
-- `´` -> `)`
-- `Shift` + `+` -> `}`
-- `Shift` + `´` -> `}`
+- `º` `ª` -> `[` `{`
+- `´` `` ` `` -> `]` `}`
 - `ç` -> - `;`
 - `Shift` + `ç` -> - `:`
+
+- `Alt` + `º` -> `(`
+- `Alt` + `´` -> `)`
+- `Alt` + `ç` -> `ç`
+- `Alt` + `Shift` + `ç` -> `Ç`
