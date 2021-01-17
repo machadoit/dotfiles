@@ -14,13 +14,13 @@ PT (Mac) layout to be able to write portguese with a couple changes motivated by
 
 The  `´` `` ` `` and `~` `^` keys keep the *dead keys* behaviour as expected.
 
-![alt PT+](PT+.png)
+![alt PT+](images/PT+.png)
 
-![alt PT+_Shift](PT+_Shift.png)
+![alt PT+_Shift](images/PT+_Shift.png)
 
-![alt PT+_Alt](PT+_Alt.png)
+![alt PT+_Alt](images/PT+_Alt.png)
 
-![alt PT+_AltShift](PT+_AltShift.png)
+![alt PT+_AltShift](images/PT+_AltShift.png)
 
 ## PT-Dev
 
@@ -30,9 +30,9 @@ Everything that PT+ does, removes all dead keys, and replaces some keys not used
 - `´` `` ` `` -> `]` `}`
 - `ç` `Ç` -> `;` `:`
 
-![alt PT-Dev](PT-Dev.png)
+![alt PT-Dev](images/PT-Dev.png)
 
-![alt PT-Dev_Shift](PT-Dev_Shift.png)
+![alt PT-Dev_Shift](images/PT-Dev_Shift.png)
 
 Pressing `Alt` or `Alt` + `Shift` makes the keyboard behave as PT+ (also enables the removed *dead keys*).
 
