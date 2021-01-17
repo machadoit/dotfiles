@@ -9,7 +9,8 @@ PT (Mac) layout to be able to write portguese with a couple changes motivated by
 
 - `'` `?` -> `-` `_`
 - `-` `_` -> `/` `?`
-- `§` `±` -> `'` `` ` ``
+- `~` `^` -> `'` `` ` ``
+- `§` `±` -> `~` `^`
 
 The  `´` `` ` `` and `~` `^` keys keep the *dead keys* behaviour as expected.
 
