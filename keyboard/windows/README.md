@@ -1,5 +1,11 @@
 # Installing Windows layout
 
+# DISCLAIMER
+
+Windows layout is not the priority while I keep adapting the Mac layout.
+For a more accurate snapshot while Windows is considered up-to-date, see this repository
+on the tag [keyboard-layouts-1.0](https://github.com/machadoit/dotfiles/tree/keyboard-layouts-1.0/keyboard/windows).
+
 ## Specifics for Windows
 
 At the moment only PT+ exists, as I have no need for PT-Dev on windows for now.
