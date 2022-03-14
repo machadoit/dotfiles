@@ -1,7 +1,6 @@
 # Keyboard layouts
 
 I base my 2 layouts on Portuguese Mac layout for both Windows and MacOS.
-Except for the positions of Win / Mac key everything else is the same across the different operative systems.
 
 ## PT+
 
