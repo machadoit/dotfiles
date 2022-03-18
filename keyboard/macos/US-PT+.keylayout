@@ -1,7 +1,7 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
 <!--Created by Ukelele version 339 on 2021-01-03 at 23:09 (WET)-->
-<!--Last edited by Ukelele version 351 on 2022-03-18 at 19:41 (WET)-->
+<!--Last edited by Ukelele version 351 on 2022-03-18 at 20:20 (WET)-->
 <keyboard group="126" id="-22085" name="US-PT+" maxout="2">
     <layouts>
         <layout first="0" last="17" mapSet="ANSI" modifiers="Modifiers"/>
@@ -90,7 +90,7 @@
             <key code="47" output="."/>
             <key code="48" output="&#x0009;"/>
             <key code="49" action="  2"/>
-            <key code="50" output="&#x003C;"/>
+            <key code="50" output="ç"/>
             <key code="51" output="&#x0008;"/>
             <key code="53" output="&#x001B;"/>
             <key code="55" output=""/>
@@ -193,14 +193,14 @@
             <key code="40" output="K"/>
             <key code="41" output=":"/>
             <key code="42" output="|"/>
-            <key code="43" output=";"/>
+            <key code="43" output="&#x003C;"/>
             <key code="44" output="?"/>
             <key code="45" action="N 1"/>
             <key code="46" output="M"/>
-            <key code="47" output=":"/>
+            <key code="47" output="&#x003E;"/>
             <key code="48" output="&#x0009;"/>
             <key code="49" action="  3"/>
-            <key code="50" output="&#x003E;"/>
+            <key code="50" output="Ç"/>
             <key code="51" output="&#x0008;"/>
             <key code="53" output="&#x001B;"/>
             <key code="64" output="&#x0010;"/>
@@ -264,7 +264,7 @@
             <key code="5" output="˙"/>
             <key code="6" output="Ω"/>
             <key code="7" output="«"/>
-            <key code="8" output="©"/>
+            <key code="8" output="ç"/>
             <key code="9" output="√"/>
             <key code="10" action="~"/>
             <key code="11" output="∫"/>
@@ -479,7 +479,7 @@
             <key code="5" output="˙"/>
             <key code="6" output="Ω"/>
             <key code="7" output="»"/>
-            <key code="8" output="©"/>
+            <key code="8" output="Ç"/>
             <key code="9" output="√"/>
             <key code="10" action="^"/>
             <key code="11" output="∫"/>
@@ -627,7 +627,7 @@
             <key code="47" output="."/>
             <key code="48" output="&#x0009;"/>
             <key code="49" action=" "/>
-            <key code="50" output="&#x003C;"/>
+            <key code="50" output="ç"/>
             <key code="51" output="&#x0008;"/>
             <key code="53" output="&#x001B;"/>
             <key code="55" output=""/>
@@ -728,16 +728,16 @@
             <key code="38" output="J"/>
             <key code="39" output="&#x0022;"/>
             <key code="40" output="K"/>
-            <key code="41" output="Ç"/>
+            <key code="41" output=":"/>
             <key code="42" output="|"/>
-            <key code="43" output=";"/>
+            <key code="43" output="&#x003C;"/>
             <key code="44" output="?"/>
             <key code="45" action="N"/>
             <key code="46" output="M"/>
-            <key code="47" output=":"/>
+            <key code="47" output="&#x003E;"/>
             <key code="48" output="&#x0009;"/>
             <key code="49" action="  1"/>
-            <key code="50" output="&#x003E;"/>
+            <key code="50" output="Ç"/>
             <key code="51" output="&#x0008;"/>
             <key code="53" output="&#x001B;"/>
             <key code="64" output="&#x0010;"/>
@@ -1019,7 +1019,7 @@
             <when state="none" next="Dead Key State 3"/>
         </action>
         <action id="ç">
-            <when state="none" output="ç"/>
+            <when state="none" output=";"/>
         </action>
     </actions>
     <terminators>
