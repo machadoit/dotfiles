@@ -2,7 +2,7 @@
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
 <!--Created by Ukelele version 339 on 2021-01-03 at 23:09 (WET)-->
 <!--Last edited by Ukelele version 351 on 2022-03-18 at 21:25 (WET)-->
-<keyboard group="126" id="-22085" name="US-PT-+" maxout="2">
+<keyboard group="126" id="-22085" name="US-PT" maxout="2">
     <layouts>
         <layout first="0" last="17" mapSet="ANSI" modifiers="Modifiers"/>
         <layout first="18" last="18" mapSet="JIS" modifiers="Modifiers"/>
