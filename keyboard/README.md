@@ -35,7 +35,7 @@ Focused on Portuguese typing, with the potential to access the overridden keys:
 
 - `[` `{` -> `~` `^` (*dead key*)
 - `]` `}` -> `` ´ `` `` ` `` (*dead key*)
-- `;` -> `;` / `ç` (special *dead key* that changes the `;` to `ç` if an alphanumeric character is pressed) //TODO: Can I make it work?
+- `;` -> `;` / `ç` (*dead key* that changes the `;` to `ça` `ço` or `çu` when `a` `o` or `u` is pressed)
 - `Alt` + `'` `"` -> `º` `ª`
 - `Alt` + `c` -> `ç`
 - `Alt` + `;` -> `ç`

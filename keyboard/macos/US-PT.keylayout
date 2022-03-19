@@ -1,8 +1,8 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
 <!--Created by Ukelele version 339 on 2021-01-03 at 23:09 (WET)-->
-<!--Last edited by Ukelele version 351 on 2022-03-19 at 18:23 (WET)-->
-<keyboard group="126" id="-22085" name="US-PT" maxout="2">
+<!--Last edited by Ukelele version 351 on 2022-03-19 at 18:39 (WET)-->
+<keyboard group="126" id="-23398" name="US-PT" maxout="2">
     <layouts>
         <layout first="0" last="17" mapSet="ANSI" modifiers="Modifiers"/>
         <layout first="18" last="18" mapSet="JIS" modifiers="Modifiers"/>
@@ -859,6 +859,7 @@
             <when state="Dead Key State 1" output="Á"/>
             <when state="Dead Key State 2" output="Ã"/>
             <when state="Dead Key State 3" output="Â"/>
+            <when state="Dead Key State 4" output="ÇA"/>
         </action>
         <action id="A 1">
             <when state="none" output="A"/>
@@ -905,6 +906,7 @@
             <when state="Dead Key State 1" output="Ó"/>
             <when state="Dead Key State 2" output="Õ"/>
             <when state="Dead Key State 3" output="Ô"/>
+            <when state="Dead Key State 4" output="ÇO"/>
         </action>
         <action id="O 1">
             <when state="none" output="O"/>
@@ -918,6 +920,7 @@
             <when state="Dead Key State 0" output="Ù"/>
             <when state="Dead Key State 1" output="Ú"/>
             <when state="Dead Key State 3" output="Û"/>
+            <when state="Dead Key State 4" output="ÇU"/>
         </action>
         <action id="U 1">
             <when state="none" output="U"/>
@@ -943,6 +946,7 @@
             <when state="Dead Key State 1" output="á"/>
             <when state="Dead Key State 2" output="ã"/>
             <when state="Dead Key State 3" output="â"/>
+            <when state="Dead Key State 4" output="ça"/>
         </action>
         <action id="a 1">
             <when state="none" output="a"/>
@@ -989,6 +993,7 @@
             <when state="Dead Key State 1" output="ó"/>
             <when state="Dead Key State 2" output="õ"/>
             <when state="Dead Key State 3" output="ô"/>
+            <when state="Dead Key State 4" output="ço"/>
         </action>
         <action id="o 1">
             <when state="none" output="o"/>
@@ -1002,6 +1007,7 @@
             <when state="Dead Key State 0" output="ù"/>
             <when state="Dead Key State 1" output="ú"/>
             <when state="Dead Key State 3" output="û"/>
+            <when state="Dead Key State 4" output="çu"/>
         </action>
         <action id="u 1">
             <when state="none" output="u"/>
@@ -1034,7 +1040,7 @@
             <when state="none" next="Dead Key State 2"/>
         </action>
         <action id="ç">
-            <when state="none" output=";"/>
+            <when state="none" next="Dead Key State 4"/>
         </action>
     </actions>
     <terminators>
@@ -1042,5 +1048,6 @@
         <when state="Dead Key State 1" output="´"/>
         <when state="Dead Key State 2" output="~"/>
         <when state="Dead Key State 3" output="^"/>
+        <when state="Dead Key State 4" output=";"/>
     </terminators>
 </keyboard>
