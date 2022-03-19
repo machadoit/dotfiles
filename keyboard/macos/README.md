@@ -1,21 +1,16 @@
 # Installing MacOS layout
 
-## Specifics for MacOS
+You need to **install** and **add the layout as input source**.
 
-There is only layout, that combines PT-Dev and PT+ into PT-Dev+.
-The default behaviour is PT-Dev, and it will behave as PT+ when Caps-Lock is on.
-
-You need to **install** and **add the layout as input srouce**.
-
-## Install the layouts
+## Install the layout
 
 On MacOS you can add `.keylayout` files as keyboard layouts.
 
-1. Add the `.keylayout` files to `/Library/Keyboard Layouts`
+1. Add the `US-PT.keylayout` file to `/Library/Keyboard Layouts`
 
-## [Alternative] Install the layouts (with Ukelele)
+## [Alternative] Install the layout (with Ukelele)
 
-The layouts were made with the help of Ukelele,
+The layout was made with the help of Ukelele,
 so you can rely on it to manage/install custom keyboard layouts.
 
 1. Install Ukelele - https://software.sil.org/ukelele
@@ -43,7 +38,7 @@ or just select the one you just added.
 
 The keyboards will be installed at `/Library/Keyboard Layouts`, if you are using Ukelele, avoid manually changing that directory.
 Installing is a bit sketchy, because it mimics the manual process, it will MOVE your layout from your directory.
-I usally make a copy, and install the copy so it does not disrupt my source files.
+I usually make a copy, and install the copy so it does not disrupt my source files.
 
 When you uninstall a layout, (like for editing and installing again), it will move your layout from `/Library/Keyboard Layouts` to your working directory (selected during `Set Folder` step).
 
