@@ -1,4 +1,8 @@
-﻿; Adds some mac like shortcuts, the original shortcuts still work
+﻿#NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
+; #Warn  ; Enable warnings to assist with detecting common errors.
+SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
+
+; Adds some mac like shortcuts, the original shortcuts still work
 
 ; # Win
 ; ! Alt
@@ -113,3 +117,10 @@ Return
 #+Down::
     Send +{PgDn}
 Return
+
+; Replace ; with ç when followed by a, o, u
+:?*:;a::ça
+:?*:;ã::çã
+:?*:;o::ço
+:?*:;õ::çõ
+:?*:;u::çu

@@ -1,17 +1,13 @@
 # Installing Windows layout
 
-# DISCLAIMER
-
-Windows layout is not the priority while I keep adapting the Mac layout.
-For a more accurate snapshot while Windows is considered up-to-date, see this repository
-on the tag [keyboard-layouts-1.0](https://github.com/machadoit/dotfiles/tree/keyboard-layouts-1.0/keyboard/windows).
-
 ## Specifics for Windows
 
 At the moment only PT+ exists, as I have no need for PT-Dev on windows for now.
 
 You need to **install** and **add the layout as input srouce**.
 Optionally, if you like key placements and shortcuts Mac style (ex: CMD+C for copy) there are also instuctions for it.
+
+> The special `;` deadkey behaviour needs AutoHotkey, if you care about it, [read bellow](#optional-add-macos-like-shortcuts-and--to-ç-deadkey-behaviour).
 
 ## Install the layouts
 
@@ -45,18 +41,26 @@ On Windows you can generate an installer from a `.klc` keyboard layout file.
 1. You can either remove the previous keyboard, or leave it there.
 Choose what you want to use on the Language Bar on the bottom right corner
 
-## [Optional] Add MacOS like shortcuts
+## [Optional] Add MacOS like shortcuts and `;` to `ç` deadkey behaviour
 
 You may want to check https://medium.com/@chrisdhanaraj/mapping-your-macos-keybinds-to-windows-b6009c50065b where the author
 goes on a good explanation on how to remap Ctrl and Alt, and how to have the shortcuts. I made it a bit different,
 focused more on swapping Alt with Win key, and then adding the shortcuts, pick your poison.
 
 Also, with my approach, if you have a keyboard with Mac mode, you don't need to do the
-[Swap Alt and Windows key location](#optional-swap-alt-and-windows-key-location)
+[Swap Alt and Windows key location](#optional-swap-alt-and-windows-key-location).
 
-1. Install AutoHotkey - https://www.autohotkey.com
+Regarding the `;` deadkey behaviour, I can't manage to have it to behave as I want in Windows with the layout alone.
+For this behaviour, I also rely on AutoHotkey. For more ideas or examples of text replacement you can check their
+[AutoCorrect script](https://www.autohotkey.com/download/AutoCorrect.ahk).
 
-1. Add a shortcut for the mac-win-shortcuts.ahk on your [startup](https://www.autohotkey.com/docs/FAQ.htm#Startup).
+The provided `mac-win-shortcuts.ahk` also includes the behaviour for the `;` key at the end of the file,
+if you don't want that special behaviour, you can remove the latest part of the script, the section
+that starts with *`Replace ; with ç when followed by a, o, u`*.
+
+1. Install AutoHotkey - https://www.autohotkey.com (if not installed already)
+
+1. Add a shortcut for the `mac-win-shortcuts.ahk` on your [startup](https://www.autohotkey.com/docs/FAQ.htm#Startup).
 > Press Win+R to open the Run dialog, then enter shell:startup to open the startup folder.
 
 ## [Optional] Swap Alt and Windows key location
