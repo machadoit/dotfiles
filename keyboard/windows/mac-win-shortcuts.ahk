@@ -118,9 +118,14 @@ Return
     Send +{PgDn}
 Return
 
+
 ; Replace ; with ç when followed by a, o, u
+
 :?*:;a::ça
-:?*:;ã::çã
+:?:;ã::çã
+:?:;ão::ção
+
 :?*:;o::ço
-:?*:;õ::çõ
+:?:;ões::ções
+
 :?*:;u::çu
