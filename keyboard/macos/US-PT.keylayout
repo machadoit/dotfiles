@@ -1,8 +1,8 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
 <!--Created by Ukelele version 339 on 2021-01-03 at 23:09 (WET)-->
-<!--Last edited by Ukelele version 351 on 2022-03-19 at 18:39 (WET)-->
-<keyboard group="126" id="-23398" name="US-PT" maxout="2">
+<!--Last edited by Ukelele version 351 on 2022-03-20 at 12:51 (WET)-->
+<keyboard group="126" id="-7038" name="US-PT" maxout="2">
     <layouts>
         <layout first="0" last="17" mapSet="ANSI" modifiers="Modifiers"/>
         <layout first="18" last="18" mapSet="JIS" modifiers="Modifiers"/>
@@ -90,7 +90,7 @@
             <key code="47" output="."/>
             <key code="48" output="&#x0009;"/>
             <key code="49" action="  2"/>
-            <key code="50" output="ç"/>
+            <key code="50" output="`"/>
             <key code="51" output="&#x0008;"/>
             <key code="53" output="&#x001B;"/>
             <key code="55" output=""/>
@@ -200,7 +200,7 @@
             <key code="47" output="&#x003E;"/>
             <key code="48" output="&#x0009;"/>
             <key code="49" action="  3"/>
-            <key code="50" output="Ç"/>
+            <key code="50" output="~"/>
             <key code="51" output="&#x0008;"/>
             <key code="53" output="&#x001B;"/>
             <key code="64" output="&#x0010;"/>
@@ -627,7 +627,7 @@
             <key code="47" output="."/>
             <key code="48" output="&#x0009;"/>
             <key code="49" action=" "/>
-            <key code="50" output="ç"/>
+            <key code="50" output="`"/>
             <key code="51" output="&#x0008;"/>
             <key code="53" output="&#x001B;"/>
             <key code="55" output=""/>
@@ -737,7 +737,7 @@
             <key code="47" output="&#x003E;"/>
             <key code="48" output="&#x0009;"/>
             <key code="49" action="  1"/>
-            <key code="50" output="Ç"/>
+            <key code="50" output="~"/>
             <key code="51" output="&#x0008;"/>
             <key code="53" output="&#x001B;"/>
             <key code="64" output="&#x0010;"/>
@@ -860,6 +860,7 @@
             <when state="Dead Key State 2" output="Ã"/>
             <when state="Dead Key State 3" output="Â"/>
             <when state="Dead Key State 4" output="ÇA"/>
+            <when state="Dead Key State 5" output="ÇÃ"/>
         </action>
         <action id="A 1">
             <when state="none" output="A"/>
@@ -907,6 +908,7 @@
             <when state="Dead Key State 2" output="Õ"/>
             <when state="Dead Key State 3" output="Ô"/>
             <when state="Dead Key State 4" output="ÇO"/>
+            <when state="Dead Key State 5" output="ÇÕ"/>
         </action>
         <action id="O 1">
             <when state="none" output="O"/>
@@ -947,6 +949,7 @@
             <when state="Dead Key State 2" output="ã"/>
             <when state="Dead Key State 3" output="â"/>
             <when state="Dead Key State 4" output="ça"/>
+            <when state="Dead Key State 5" output="çã"/>
         </action>
         <action id="a 1">
             <when state="none" output="a"/>
@@ -994,6 +997,7 @@
             <when state="Dead Key State 2" output="õ"/>
             <when state="Dead Key State 3" output="ô"/>
             <when state="Dead Key State 4" output="ço"/>
+            <when state="Dead Key State 5" output="çõ"/>
         </action>
         <action id="o 1">
             <when state="none" output="o"/>
@@ -1035,6 +1039,7 @@
         </action>
         <action id="º">
             <when state="none" next="Dead Key State 2"/>
+            <when state="Dead Key State 4" next="Dead Key State 5"/>
         </action>
         <action id="º 1">
             <when state="none" next="Dead Key State 2"/>
@@ -1049,5 +1054,6 @@
         <when state="Dead Key State 2" output="~"/>
         <when state="Dead Key State 3" output="^"/>
         <when state="Dead Key State 4" output=";"/>
+        <when state="Dead Key State 5" output="ç"/>
     </terminators>
 </keyboard>
