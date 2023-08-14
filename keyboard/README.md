@@ -20,9 +20,11 @@ Focuses on programming or English typing, but adds the potential for typing in P
 
 - `Alt` + `[` `{` -> `~` `^` (*dead key*)
 - `Alt` + `]` `}` -> `` ´ `` `` ` `` (*dead key*)
+
 - `Alt` + `'` `"` -> `º` `ª`
-- `Alt` + `c` -> `ç`
+
 - `Alt` + `;` -> `ç`
+- `Alt` + `c` -> `ç`
 
 //TODO: Review images
 ![alt PT-Dev](images/PT-Dev.png)
@@ -37,10 +39,12 @@ Focused on Portuguese typing, with the potential to access the overridden keys:
 - `]` `}` -> `` ´ `` `` ` `` (*dead key*)
 - `Alt` + `[` `{` -> `[` `{`
 - `Alt` + `]` `}` -> `]` `}`
-- `;` -> `;` / `ç` (*dead key* that changes the `;` to `ça` `ço` or `çu` when `a` `o` or `u` is pressed)
+
 - `Alt` + `'` `"` -> `º` `ª`
+
+- `;` -> `ç`
+- `Alt` + `;` -> `;`
 - `Alt` + `c` -> `ç`
-- `Alt` + `;` -> `ç`
 
 //TODO: To be updated
 ![alt PT+](images/PT+.png)

@@ -1,8 +1,4 @@
-﻿#NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
-; #Warn  ; Enable warnings to assist with detecting common errors.
-SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
-
-; Adds some mac like shortcuts, the original shortcuts still work
+﻿; Adds some mac like shortcuts, the original shortcuts still work
 
 ; # Win
 ; ! Alt
@@ -11,121 +7,187 @@ SendMode Input  ; Recommended for new scripts due to its superior speed and reli
 
 ; Undo - Win+z
 #z::
-Send, ^z
-return
+{
+    Send "^z"
+}
+
+; Redo - Win+Shift+z
+#+z::
+{
+    Send "^+z"
+}
 
 ; Cut - Win+x
 #x::
-Send, ^x
-return
+{
+    Send "^x"
+}
 
 ; Copy - Win+c
 #c::
-Send, ^c
-return
+{
+    Send "^c"
+}
 
 ; Paste - Win+v
 #v::
-Send, ^v
-return
+{
+    Send "^v"
+}
+
+; Paste Special - Win+Shift+v
+#+v::
+{
+    Send "^+v"
+}
 
 ; Find - Win+f
 #f::
-Send, ^f
-return
+{
+    Send "^f"
+}
 
 ; Save - Win+s
 #s::
-Send, ^s
-return
+{
+    Send "^s"
+}
+
+; Select all - Win+a
+#a::
+{
+    Send "^a"
+}
+
+
+; New tab - Win+t
+#t::
+{
+    Send "^t"
+}
+
+; Re-open tab - Win+Shift+t
+#+t::
+{
+    Send "^+t"
+}
+
+; Close tab - Win+w
+#w::
+{
+    Send "^w"
+}
+
+; Close window - Win+q
+#q::
+{
+    Send "!{F4}"
+}
+
+
+; Home - Win+Left
+#Left::
+{
+    Send "{Home}"
+}
+
+; HomeShift - Win+Shift+Left
+#+Left::
+{
+    Send "+{Home}"
+}
+
+; End - Win+Right
+#Right::
+{
+    Send "{End}"
+}
+
+; EndShift - Win+Shift+Right
+#+Right::
+{
+    Send "+{End}"
+}
+
+; PgUp - Win+Up
+#Up::
+{
+    Send "{PgUp}"
+}
+
+; PgUpShift - Win+Shift+Up
+#+Up::
+{
+    Send "+{PgUp}"
+}
+
+; PgDn - Win+Down
+#Down::
+{
+    Send "{PgDn}"
+}
+
+; PgDnShift - Win+Shift+Down
+#+Down::
+{
+    Send "+{PgDn}"
+}
+
+; Move cursor left full word - Alt+Left
+!Left::
+{
+    Send "^{Left}"
+}
+
+; Move cursor left full word with Shift - Alt+Shift+Left
+!+Left::
+{
+    Send "^+{Left}"
+}
+
+; Move cursor right full word - Alt+Right
+!Right::
+{
+    Send "^{Right}"
+}
+
+; Move cursor right full word with Shift - Alt+Shift+Right
+!+Right::
+{
+    Send "^+{Right}"
+}
+
+; Run command - Ctrl+r
+^r::
+{
+    Send "#r"
+}
+
+; Refresh - Win+r
+#r::
+{
+    Send "{F5}"
+}
 
 ; Switch Windows - Alt+Tab
 LWin & Tab::AltTab
 RWin & Tab::AltTab
 
-; Run command - Ctrl+r
-^r::
-Send, #r
-return
 
-; Refresh - Win+r
-#r::
-Send, {F5}
-return
+; Search in browser / GitHub - Win+k
+#k::
+{
+    Send "^k"
+}
 
-; New tab - Win+t
-#t::
-Send, ^t
-return
+; Go to file on VSCode - Win+P
+#p::
+{
+    Send "^p"
+}
 
-; Re-open tab - Win+Shift+t
-#+t::
-Send, ^+t
-return
-
-; Close tab - Win+w
-#w::
-Send, ^w
-return
-
-; Close window - Win+q
-#q::
-Send, !{F4}
-return
-
-; Select all - Win+a
-#a::
-Send, ^a
-return
-
-; Home - Win+Left
-#Left::
-    Send {Home}
-Return
-
-; HomeShift - Win+Shift+Left
-#+Left::
-    Send +{Home}
-Return
-
-; End - Win+Right
-#Right::
-    Send {End}
-Return
-
-; EndShift - Win+Shift+Right
-#+Right::
-    Send +{End}
-Return
-
-; PgUp - Win+Up
-#Up::
-    Send {PgUp}
-Return
-
-; PgUpShift - Win+Shift+Up
-#+Up::
-    Send +{PgUp}
-Return
-
-; PgDn - Win+Down
-#Down::
-    Send {PgDn}
-Return
-
-; PgDnShift - Win+Shift+Down
-#+Down::
-    Send +{PgDn}
-Return
-
-
-; Replace ; with ç when followed by a, o, u
-
-:?*:;a::ça
-:?:;ã::çã
-:?:;ão::ção
-
-:?*:;o::ço
-:?:;ões::ções
-
-:?*:;u::çu
+; Show all actions on VSCode - Win+Shift+P
+#+p::
+{
+    Send "^+p"
+}
